@@ -91,13 +91,13 @@ async def stats(_, message):
             f'<b>Total:</b> <code>{total}</code> | <b>Free:</b> <code>{free}</code>\n\n' \
             f'<b>UL:</b> <code>{sent}</code> | <b>DL:</b> <code>{recv}</code>\n\n' \
             f'<b><i><u>Bot Limits</u></i></b>\n' \
-            f'<code>Torrent   : {TOR}</code> <b>GB</b>\n' \
-            f'<code>G-Drive   : {GDL}</code> <b>GB</b>\n' \
-            f'<code>Yt-Dlp    : {YTD}</code> <b>GB</b>\n' \
-            f'<code>Direct    : {DIR}</code> <b>GB</b>\n' \
-            f'<code>Clone     : {CLL}</code> <b>GB</b>\n' \
-            f'<code>Leech     : {TGL}</code> <b>GB</b>\n' \
-            f'<code>MEGA      : {MGA}</code> <b>GB</b>\n' \
+            f'<code>Torrent   : {TOR}</code> <b></b>\n' \
+            f'<code>G-Drive   : {GDL}</code> <b></b>\n' \
+            f'<code>Yt-Dlp    : {YTD}</code> <b></b>\n' \
+            f'<code>Direct    : {DIR}</code> <b></b>\n' \
+            f'<code>Clone     : {CLL}</code> <b></b>\n' \
+            f'<code>Leech     : {TGL}</code> <b></b>\n' \
+            f'<code>MEGA      : {MGA}</code> <b></b>\n' \
             f'<code>User Tasks: {UMT}</code>\n' \
             f'<code>Bot Tasks : {BMT}</code>'
     reply_message = await sendMessage(message, stats)
